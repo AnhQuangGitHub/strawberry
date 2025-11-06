@@ -10,7 +10,7 @@ jobs:
 
   build-opensuse:
     name: Build openSUSE
-    if: github.repository != 'strawberrymusicplayer/strawberry-private' && github.ref != 'refs/heads/l10n_master'
+    if: github.ref != 'refs/heads/l10n_master'
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -151,7 +151,7 @@ jobs:
 
   build-fedora:
     name: Build Fedora
-    if: github.repository != 'strawberrymusicplayer/strawberry-private' && github.ref != 'refs/heads/l10n_master'
+    if: github.ref != 'refs/heads/l10n_master'
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -244,7 +244,7 @@ jobs:
 
   build-openmandriva:
     name: Build OpenMandriva
-    if: github.repository != 'strawberrymusicplayer/strawberry-private' && github.ref != 'refs/heads/l10n_master'
+    if: github.ref != 'refs/heads/l10n_master'
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -343,7 +343,7 @@ jobs:
 
   build-mageia:
     name: Build Mageia
-    if: github.repository != 'strawberrymusicplayer/strawberry-private' && github.ref != 'refs/heads/l10n_master'
+    if: github.ref != 'refs/heads/l10n_master'
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -444,7 +444,7 @@ jobs:
 
   build-debian:
     name: Build Debian
-    if: github.repository != 'strawberrymusicplayer/strawberry-private' && github.ref != 'refs/heads/l10n_master'
+    if: github.ref != 'refs/heads/l10n_master'
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -537,7 +537,7 @@ jobs:
 
   build-ubuntu:
     name: Build Ubuntu
-    if: github.repository != 'strawberrymusicplayer/strawberry-private' && github.ref != 'refs/heads/l10n_master'
+    if: github.ref != 'refs/heads/l10n_master'
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -731,7 +731,7 @@ jobs:
 
   build-freebsd:
     name: Build FreeBSD
-    if: github.repository != 'strawberrymusicplayer/strawberry-private' && github.ref != 'refs/heads/l10n_master'
+    if: github.ref != 'refs/heads/l10n_master'
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -756,7 +756,7 @@ jobs:
 
   build-openbsd:
     name: Build OpenBSD
-    if: github.repository != 'strawberrymusicplayer/strawberry-private' && github.ref != 'refs/heads/l10n_master'
+    if: github.ref != 'refs/heads/l10n_master'
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -782,7 +782,7 @@ jobs:
 
   build-macos-public:
     name: Build macOS Public
-    if: github.repository != 'strawberrymusicplayer/strawberry-private' && github.ref != 'refs/heads/l10n_master'
+    if: github.ref != 'refs/heads/l10n_master'
 
     strategy:
       fail-fast: false
@@ -1064,7 +1064,7 @@ jobs:
 
   build-windows-mingw:
     name: Build Windows MinGW
-    if: github.repository != 'strawberrymusicplayer/strawberry-private' && github.ref != 'refs/heads/l10n_master'
+    if: github.ref != 'refs/heads/l10n_master'
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -1253,7 +1253,7 @@ jobs:
 
   build-windows-msvc:
     name: Build Windows MSVC
-    if: github.repository != 'strawberrymusicplayer/strawberry-private' && github.ref != 'refs/heads/l10n_master'
+    if: github.ref != 'refs/heads/l10n_master'
     strategy:
       fail-fast: false
       matrix:
