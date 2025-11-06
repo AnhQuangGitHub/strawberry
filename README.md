@@ -133,3 +133,4 @@ For building on Windows with Visual Studio 2022, see: :point_right: https://gith
 ## :package: Packaging status
 
 [![Packaging status](https://repology.org/badge/vertical-allrepos/strawberry.svg?columns=3&header=Strawberry&exclude_unsupported=1)](https://repology.org/metapackage/strawberry/versions)
+
